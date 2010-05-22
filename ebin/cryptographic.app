@@ -11,11 +11,15 @@
   {modules,
    [
     cg_rsa,
-    cg_math
+    cg_math,
+    entropy,
+    hash_random,
+    rijndael,
+    sha2
    ]},
 
   % All of the registered names the application uses.
-  {registered, []},
+  {registered, [hash_random]},
 
   {applications,
    [
